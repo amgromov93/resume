@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "../index.module.scss";
-import variables from "../../../sass/style.module.scss";
+import variables from "../../sass/style.module.scss";
 
 export default function Title() {
   const nameClasses = styles.title__name + ' ' + variables.headingOne;

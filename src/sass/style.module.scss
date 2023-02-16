@@ -1,3 +1,19 @@
 @import './fonts.module';
 @import './main.module';
 @import './variables.module';
+
+p {
+  margin: 0;
+}
+
+a {
+  color: #fff;
+}
+
+.body {
+  background-color: #170F2E;
+}
+
+.container {
+  padding: 20px 40px;
+}
