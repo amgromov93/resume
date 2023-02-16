@@ -1,9 +1,19 @@
 import React from "react";
+import { Col, Row } from "antd";
+import styles from "./sass/style.module.scss";
 
-function App() {
+import AboutMe from "./Components/AboutMe";
+import Information from "./Components/Information";
+
+export default function App() {
   return (
-    <h1>Resume</h1>
+    <Row>
+      <Col span={8}>
+        <AboutMe />
+      </Col>
+      <Col span={16}>
+        <Information />
+      </Col>
+    </Row>
   );
 }
-
-export default App;

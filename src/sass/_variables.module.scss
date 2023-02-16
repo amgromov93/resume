@@ -1,0 +1,108 @@
+//colors
+$darkest: #170F2E;
+$darker: #312163;
+$dark: #5531A7;
+$default: #9251F7;
+$light: #C696FC;
+$lighter: #EFE2F9;
+$lightest: #F8F2FC;
+//text
+.hero {
+    font-family: 'Outfit', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+}
+.headingOne {
+    font-family: 'Outfit', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+}
+.headingTwo {
+    font-family: 'Outfit', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+}
+.headingThree {
+    font-family: 'Outfit', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.bodyOne {
+    font-family: 'DM Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.bodyOne__bold {
+    font-family: 'DM Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.bodyTwo {
+    font-family: 'DM Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+}
+.bodyTwo__bold {
+    font-family: 'DM Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+.captionOne {
+    font-family: 'DM Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+}
+.captionOne__bold {
+    font-family: 'DM Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+.captionTwo {
+    font-family: 'DM Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+}
+.captionTwo__bold {
+    font-family: 'DM Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+}
+.hairline {
+    font-family: 'DM Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
