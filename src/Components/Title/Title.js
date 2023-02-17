@@ -1,13 +1,12 @@
 import React from "react";
 
-import styles from "../index.module.scss";
-import variables from "../../sass/style.module.scss";
+import styles from "../../sass/style.module.scss";
 
 export default function Title() {
-  const nameClasses = styles.title__name + ' ' + variables.headingOne;
-  const jobClasses = styles.title__job + ' ' + variables.headingTwo;
-  const quoteClasses = styles.title__quote + ' ' + variables.headingThree;
-  const authorClasses = styles.title__quote_author + ' ' + variables.captionOne;
+  const nameClasses = styles.title__name + ' ' + styles.headingOne;
+  const jobClasses = styles.title__job + ' ' + styles.headingTwo;
+  const quoteClasses = styles.title__quote + ' ' + styles.headingThree;
+  const authorClasses = styles.title__quote_author + ' ' + styles.captionOne;
 
   return (
     <section className={styles.title}>
