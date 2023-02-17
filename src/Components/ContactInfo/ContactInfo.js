@@ -47,7 +47,7 @@ export default function ContactInfo() {
         <article key={item.id} className={item.style}>
           <p className={item.icon}></p>
           <p className={titleTextClasses}>{item.title}</p>
-          {item.description}
+          <div>{item.description}</div>
         </article>
       ))}
     </section>

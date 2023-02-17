@@ -2,4 +2,56 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding: 30px 0;
   color: #fff;
+  &__title {
+    color: #ACB1C3;
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+  &__box {
+    margin-bottom: 24px;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: min-content min-content;
+    grid-column-gap: 20px;
+    &_margin_bottom_0 {
+      margin-bottom: 0;
+    }
+  }
+  &__text {
+    color: #ACB1C3;
+  }
+  &__icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    grid-row: 1 / -1;
+    &_insta {
+      background-image: url(../../img/social-icons/instagram.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 16px 16px;
+      background-color: #F00073;
+    }
+    &_fb {
+      background-image: url(../../img/social-icons/facebook.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 16px 16px;
+      background-color: #1877F2;
+    }
+    &_linkedin {
+      background-image: url(../../img/social-icons/linkedin.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 16px 16px;
+      background-color: #2867B2;
+    }
+    &_telegram {
+      background-image: url(../../img/social-icons/telegram.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 16px 16px;
+      background-color: #0088CC;
+    }
+  }
 }

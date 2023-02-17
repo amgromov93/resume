@@ -1,0 +1,47 @@
+.languages {
+  // border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 30px 0;
+  color: #ACB1C3;
+  &__title {
+    color: #ACB1C3;
+    margin-bottom: 24px;
+    margin-top: 0;
+  }
+  &__box {
+    margin-bottom: 24px;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: min-content min-content;
+    grid-column-gap: 20px;
+    &_margin_bottom_0 {
+      margin-bottom: 0;
+    }
+  }
+  &__text {
+    color: #D9DFE8;
+  }
+  &__icon {
+    width: 40px;
+    height: 32px;
+    border-radius: 8px;
+    grid-row: 1 / -1;
+    &_ukraine {
+      background-image: url(../../img/language-icons/ukraine.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    &_english {
+      background-image: url(../../img/language-icons/english.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    &_german {
+      background-image: url(../../img/language-icons/german.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+}
