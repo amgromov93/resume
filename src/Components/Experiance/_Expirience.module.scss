@@ -1,0 +1,68 @@
+.experience {
+  &__title {
+    color: $lightest;
+    margin: 45px 0 32px;
+  }
+  &__job {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: min-content min-content;
+  }
+  &__town {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+    color: #ACB1C3;
+    margin-bottom: 8px;
+    align-items: center;
+  }
+  &__place {
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    &::before {
+      content: '';
+      background-image: url(../../img/contact-icons/location.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 12px;
+      height: 12px;
+      margin-right: 8px;
+    }
+  }
+  &__info {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 2 / -1;
+    grid-template-columns: min-content min-content;
+    grid-template-rows: min-content min-content;
+  }
+  &__icon {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+    background-image: url(../../img/work-icons/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+  }
+  &__speciality {
+    margin: 0;
+    color: #ACB1C3;
+    grid-column: 2 / -1;
+  }
+  &__title__text {
+    grid-column: 2 / -1;
+    margin: 0px;
+    color: #fff;
+  }
+  &__description {
+    grid-column: 2 / -1;
+    grid-row: 1 / -1;
+    color: #ACB1C3;
+  }
+}

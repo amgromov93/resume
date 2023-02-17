@@ -1,0 +1,47 @@
+.education {
+  &__title {
+    color: $lightest;
+    margin: 45px 0 32px;
+  }
+  &__box {
+    display: flex;
+    margin: 0 -4px;
+  }
+  &__item {
+    background-color: #2E2E48;
+    width: 50%;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: min-content 1fr 1fr;
+    gap: 20px;
+    margin: 0 4px;
+    align-items: center;
+    border-radius: 8px;
+  }
+  &__icon {
+    grid-column: 1 / 2;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background-image: url(../../img/education-icons/hillel-logo.png);
+    background-size: 40px;
+  }
+  &__title__text {
+    color: #E2E6EE;
+    align-self: center;
+    margin-left: 16px;
+    text-transform: uppercase;
+  }
+  &__speciality {
+    color: #E2E6EE;
+    &:hover {
+        color: #95AAFB;
+    }
+  }
+  &__time {
+      color: #E2E6EE;
+  } 
+}
