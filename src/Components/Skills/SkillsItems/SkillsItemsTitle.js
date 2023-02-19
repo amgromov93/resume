@@ -26,12 +26,15 @@ export default function SkillsItemsTitle() {
   ]
 
   return (
-    <div className={styles.skills__box}>
-      {skillsItemsTitle.map((item) => (
-        <article key={item.id}>
-          <p className={item.icon}></p>
-        </article>
-      ))}
+    <div>
+      <h3 className={styles.skills__title__item}>HTML/CSS/JS</h3>
+      <div className={styles.skills__box}>
+        {skillsItemsTitle.map((item) => (
+          <article key={item.id}>
+            <p className={item.icon}></p>
+          </article>
+        ))}
+      </div>
     </div>
   )
 }

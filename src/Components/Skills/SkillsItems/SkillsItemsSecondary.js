@@ -26,12 +26,16 @@ export default function SkillsItemsSecondary() {
   ]
 
   return (
-    <div className={styles.skills__box}>
-      {skillsItemsSecondary.map((item) => (
-        <article key={item.id}>
-          <p className={item.icon}></p>
-        </article>
-      ))}
+    <div>
+      <h3 className={styles.skills__title__item}>ADAPTIVE/SVG/SASS</h3>
+      <div className={styles.skills__box}>
+        {skillsItemsSecondary.map((item) => (
+          <article key={item.id}>
+            <p className={item.icon}></p>
+          </article>
+        ))}
+      </div>
     </div>
+    
   )
 }

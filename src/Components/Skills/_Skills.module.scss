@@ -2,6 +2,12 @@
   &__title {
     color: #E2E6EE;
     margin: 45px 0 32px ;
+    &__item {
+      font-size: 13px;
+      margin-top: 0;
+      color: #E2E6EE;
+      text-align: center;
+    }
   }
   &__tabs {
     border-radius: 8px;

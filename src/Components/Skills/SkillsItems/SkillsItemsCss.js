@@ -26,12 +26,16 @@ export default function SkillsItemsCss() {
   ]
 
   return (
-    <div className={styles.skills__box}>
-      {skillsItemsCss.map((item) => (
-        <article key={item.id}>
-          <p className={item.icon}></p>
-        </article>
-      ))}
+    <div>
+      <h3 className={styles.skills__title__item}>FLEX/GRID/FLOAT</h3>
+      <div className={styles.skills__box}>
+        {skillsItemsCss.map((item) => (
+          <article key={item.id}>
+            <p className={item.icon}></p>
+          </article>
+        ))}
+      </div>
     </div>
+    
   )
 }

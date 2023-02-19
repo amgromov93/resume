@@ -26,12 +26,16 @@ export default function SkillsItemsFrameworks() {
   ]
 
   return (
-    <div className={styles.skills__box}>
-      {skillsItemsFrameworks.map((item) => (
-        <article key={item.id}>
-          <p className={item.icon}></p>
-        </article>
-      ))}
+    <div>
+      <h3 className={styles.skills__title__item}>BOOTSTRAP/ANTD/MUI</h3>
+      <div className={styles.skills__box}>
+        {skillsItemsFrameworks.map((item) => (
+          <article key={item.id}>
+            <p className={item.icon}></p>
+          </article>
+        ))}
+      </div>
     </div>
+    
   )
 }
