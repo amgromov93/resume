@@ -1,0 +1,75 @@
+.skills {
+  &__title {
+    color: #E2E6EE;
+    margin: 45px 0 32px ;
+  }
+  &__tabs {
+    border-radius: 8px;
+    background-color: #2E2E48;
+    padding: 30px 20px ;
+    color: #E2E6EE;
+  }
+  &__box {
+    border-radius: 8px;
+    background-color: rgba(239, 226, 249, 0.1);
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  &__icon {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    &_html {
+      background-image: url(../../img/skills-icons/htmlIcon.png);
+      background-size: 30px;
+    }
+    &_css {
+      background-image: url(../../img/skills-icons/cssIcon.png);
+      background-size: 23px 30px;
+    }
+    &_js {
+      background-image: url(../../img/skills-icons/jsIcon.webp);
+      background-size: 30px;
+    }
+    &_adaptive {
+      background-image: url(../../img/skills-icons/adaptiveIcon.jpeg);
+      background-size: 30px;
+    }
+    &_svg {
+      background-image: url(../../img/skills-icons/svgIcon.png);
+      background-size: 30px;
+    }
+    &_sass {
+      background-image: url(../../img/skills-icons/sassIcon.png);
+      background-size: 30px;
+    }
+    &_flex {
+      background-image: url(../../img/skills-icons/flexboxIcon.png);
+      background-size: 70px;
+    }
+    &_grid {
+      background-image: url(../../img/skills-icons/gridIcon.jpeg);
+      background-size: 80px;
+    }
+    &_float {
+      background-image: url(../../img/skills-icons/floatIcon.png);
+      background-size: 30px;
+    }
+    &_bootstrap {
+      background-image: url(../../img/skills-icons/bootstrapIcon.png);
+      background-size: 40px;
+    }
+    &_antd {
+      background-image: url(../../img/skills-icons/antdIcon.png);
+      background-size: 30px;
+    }
+    &_mui {
+      background-image: url(../../img/skills-icons/muiIcon.png);
+      background-size: 30px;
+    }
+  }
+}

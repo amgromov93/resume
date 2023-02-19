@@ -10,6 +10,7 @@ import Languages from "./Components/Languages/Languages";
 import LatestProjects from "./Components/LatestProjects/LatestProjects";
 import Expirience from "./Components/Experiance/Expirience";
 import Education from "./Components/Education/Education";
+import Skills from "./Components/Skills/Skills";
 
 export default function App() {
   const blockClasses = styles.body + ' ' + styles.container;
@@ -26,6 +27,7 @@ export default function App() {
         <LatestProjects />
         <Expirience />
         <Education />
+        <Skills />
       </Col>
     </Row>
   );
